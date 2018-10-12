@@ -1,0 +1,125 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #fafafa;
+}
+/* nav */
+.navbar-form {
+    margin: 7px 250px;
+}
+.navbar-brand{
+   margin-top: -20px;
+    /* width: 100px; */
+}
+/* header */
+/* logo */ 
+.navbar-brand>img {
+    display: block;
+    width: 100px;
+    overflow: hidden;
+    padding: 16px;
+    margin-top: -12px;
+    height: 90px;
+}
+/* bar */
+.menu {
+    position: relative;
+    margin-top: 11px;
+    margin-bottom: -33px;
+    width: 140px;
+}
+.menu .fa {
+    color: #434367;
+}
+.menu .cat {
+    width: 250px;
+    height: 100vh;
+    color: #fff;
+    background-color: #3e3e3e;
+    padding-top: 20px;
+    margin-left: -31px;
+    line-height: 40px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    position: absolute;
+    z-index: 9999;
+    display: none
+}
+.menu .fa:hover{
+    cursor: pointer;
+}
+.menu .cat ul {
+    font-size: 24px;
+    list-style: none;
+}
+.menu li {
+    padding-left: 20px;
+    font-size: 25px;
+    line-height: 50px;
+}
+/* End bar */
+.header {
+    background-image: url(../img/3.jpg);
+    margin-top: -20px;
+    padding: 50px;
+}
+.header-women {
+    background-image: url(../img/1.jpg);
+    margin-top: -20px;
+    padding: 50px;
+}
+
+.header-women .lead {
+    padding: 90px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.header-acc .lead {
+    padding: 90px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* End Header */
+.about {
+    padding-top: 60px;
+}
+.about h2 {
+    font-size: 30px;
+    color: #222;
+}
+.about .lead {
+    font-size: 18px;
+    line-height: 32px;
+    color: #616161;
+}
+/* Start footer */
+.footer {
+    padding-top: 40px;
+    background-color: #434367;
+    color: aliceblue;
+    font-size: 17px;
+    margin-top: 100px;
+    line-height: 44px;
+    padding-bottom: 30px;
+}
+.footer ul {
+    list-style: none;
+}
+.footer li a {
+    text-decoration: none;
+    color: aliceblue
+}
+.copyright {
+    background-color: black;
+}
+.copyright .lead {
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+    padding: 9px 0;
+}

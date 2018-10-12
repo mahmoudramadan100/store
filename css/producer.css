@@ -1,0 +1,216 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+.producer {
+    padding-top: 80px;
+}
+.producer img {
+    width: 100%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+/* slick */
+.slider .item {
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    color: whitesmoke;
+}
+.nav .item {
+    padding: 10px;
+    margin: 3px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    color: whitesmoke;
+}
+.slick-dots li button {
+    font-size: 10px;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: #333;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+/* End  */
+.producer .about {
+    padding-left: 20px
+}
+.producer .about h3 {
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.producer .about span {
+    font-size: 30px;
+    font-weight: 600;
+}
+.producer .about .lead {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height : 26px;
+}
+.producer .about h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.producer .color div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding-left: 20px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.producer .color .red {
+    background-color: tomato
+}
+.producer .color .blue {
+    background-color: rgb(60, 60, 95)
+}
+.producer .color .green {
+    background-color: rgb(58, 75, 34)
+}
+.producer .color .black {
+    background-color: black
+}
+.producer .color div:hover {
+    cursor: pointer;
+    border: 2px solid #c9c7c7
+}
+.producer .size li{
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid #333;
+    width: 37px;
+    height: 35px;
+    text-align: center;
+    background-color: #c9c7c7;
+    font-size: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.producer .size li a {
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+}
+.producer .size li:hover{
+    border: 1px solid #333;
+    background-color: #434367
+}
+.producer .btn{
+    background-color:#434367;
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    border:none;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 3px;;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.producer .btn  a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase
+}
+.producer .btn:hover {
+    background-color: #5f5f99;
+    border: 1px solid #434367
+}
+.producer .rate  {
+    font-size: 22px;
+}
+.producer .rate .check,
+.fa-star-o {
+    color: rgb(206, 195, 43)
+}
+
+.details {
+    padding-top: 60px;
+}
+.details h3 {
+    font-size: 32;
+    font-weight: 600;
+    color: #333;
+}
+.details .row {
+    padding-top: 40px;
+    text-align: center
+}
+.details h5 {
+    font-size: 25px;
+}
+.details p {
+    font-size: 14px;
+}
+/* Start footer */
+.footer {
+    padding-top: 40px;
+    background-color: #434367;
+    color: aliceblue;
+    font-size: 17px;
+    margin-top: 100px;
+    line-height: 44px;
+    padding-bottom: 30px;
+}
+.footer ul {
+    list-style: none;
+}
+.footer li a {
+    text-decoration: none;
+    color: aliceblue
+}
+.copyright {
+    background-color: black;
+}
+.copyright .lead {
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 9px;
+}
+
+/*Some CSS*/
+* {margin: 0; padding: 0;}
+.magnify {width: 200px; margin: 50px auto; position: relative; cursor: none}
+
+/*Lets create the magnifying glass*/
+.large {
+	width: 175px; height: 175px;
+	position: absolute;
+	border-radius: 100%;
+	
+	/*Multiple box shadows to achieve the glass effect*/
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+	0 0 7px 7px rgba(0, 0, 0, 0.25), 
+	inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	
+	/*hide the glass by default*/
+	display: none;
+}
+
+/*To solve overlap bug at the edges during magnification*/
+.small { display: block; }

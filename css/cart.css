@@ -1,0 +1,132 @@
+/* body {
+    font-family: 'Roboto Condensed', sans-serif;
+} */
+.shopping {
+    padding-top: 50px;
+}
+.shopping .img {
+    display: inline-block;
+    width: 260px;
+    height: 300px;
+    position: relative;
+    top: 5px;
+}
+.shopping img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    position: absolute;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.about {
+    display: inline-block;
+    padding-left: 50px;
+    position: relative;
+    top: -65px;
+}
+@media(max-width: 1125px) {
+    .about {
+        display: inline-block;
+        padding-left: 50px;
+        position: relative;
+        top: 0;
+    }
+}
+
+@media(max-width: 700px) { 
+    .shopping .img {
+        display: inline-block;
+        width: 60%;
+        height: 310px;
+        overflow: hidden;
+        position: relative;
+        top: 5px;
+        left: 20%;
+    }
+
+    .about {
+        display: inline-block;
+        padding-left: 50px;
+        position: relative;
+        top: 0;
+    }
+    .about .color .red {
+        color: rgb(156, 48, 48);
+        font-size: 13px;
+    }
+    .about p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .about h4 {
+        font-size: 28px;
+    }
+    .navbar .login {
+        margin-top: 12px;
+        margin-left: 35px;
+        display: none !important;
+    }
+
+}
+
+.about h4 {
+    font-size: 34px;
+}
+.about p {
+    font-size: 23px;
+    line-height: 30px;
+}
+.cart-details {
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 7px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+/* .about .color i {
+    color: rgb(156, 48, 48) 
+} */
+.about .color .red {
+    color:rgb(156, 48, 48);
+    font-size: 20px;
+}
+.about .color .blue {
+    color:rgb(82, 108, 224);
+    font-size: 20px;
+}
+.about .price {
+    font-weight: bold
+}
+.cart-details .del {
+    float: right;
+    padding: 3px 20px;
+    margin-right: 20px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    border: 1px solid #5e5e91;
+}
+
+.cart-details .del:hover {
+   cursor: pointer;
+}
+.total {
+    text-align: center;
+    border: 1px solid;
+    padding: 11px 0;
+    width: 238px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 25px;
+    background-color: #434367;
+    margin: 55px auto;
+}
+.total:hover {
+    background-color: #5e5e91;
+    cursor: pointer;
+    opacity: 0.9;
+}

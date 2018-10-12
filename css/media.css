@@ -1,0 +1,349 @@
+/* Large desktops and laptops */
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-form .form-group {
+        width: 580px;
+    }
+    .navbar-form .form-control {
+        width: 500px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .navbar .navbar-form .btn-default {
+        height: 40px;
+        width: 60px;
+    }
+    .navbar-nav>li {
+        float: left;
+        margin-top: -49px;
+    }
+    .header-acc .lead {
+        padding: 80px;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .navbar-form .form-group {
+        width: 400px;
+    }
+    .navbar-form .form-control {
+        width: 320px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .navbar .navbar-form .btn-default {
+        height: 40px;
+        width: 60px;
+    }
+    .navbar-nav>li {
+        float: left;
+        margin-top: -49px;
+    }
+    .header-acc .lead {
+        padding: 10px;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    .box .about {
+        display: inline-block;
+        margin-top: 50px;
+    }
+    .box .about {
+        display: inline-block;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .navbar .navbar-form .btn-default {
+        height: 40px;
+        width: 50px;
+    }
+    .navbar-nav>li {
+        display: inline-block;
+        margin-top: -48px;
+    }
+    .box .img img {
+        width: 95%;
+        height: 243px;
+    }
+    .Portfolio .controls select {
+        text-transform: none;
+        width: 144px;
+        text-align: center;
+        padding-left: 0;
+        border: 1px solid #434367;
+        outline: none;
+        margin-top: -6;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+   
+    .header-acc .lead {
+        padding: 10px;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .box .about h2 {
+        color: #333;
+        font-size: 15px;
+        margin-top: 54px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .box .about p {
+        text-align: center
+    }
+    .quick-shop {
+        width: 402px;
+        position: fixed;
+        top: 80px;
+        left: 12%;
+        z-index: 9999;
+        display: none;
+        overflow: auto;
+    }
+
+}
+@media (max-width: 585px) {
+    .navbar .brand {
+        width: 57px;
+        height: 50px;
+        margin: 7px 37px;
+    }
+    .header-women .lead {
+        padding: 41px;
+        margin-top: 69px;
+        color: white;
+        font-size: 19px;
+        text-align: center;
+    }
+    .Portfolio .controls {
+        display: inline-block;
+        margin-top: 7px;
+        padding: 12px 0;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #404040;
+        position: relative;
+        left: 19%;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    .navbar .login {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .navbar-form .form-group {
+        width: 260px;
+    }
+    .navbar-form .form-control {
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .navbar .navbar-form .btn-default {
+        height: 40px;
+        width: 50px;
+    }
+    .navbar-nav>li {
+        float: left;
+        margin-top: -49px;
+    }
+    
+    .header-acc .lead {
+        padding: 2px;
+        color: #000000;
+        font-size: 16px;
+        text-align: center;
+    }
+    .menu .cat ul {
+        list-style: none;
+        padding-top: 0px;
+        text-transform: capitalize;
+    }
+    .navbar-default {
+        display: none;
+    }
+    .menu .cat li a {
+        text-decoration: none;
+        color: #fff;
+        margin-left: 44px;
+        padding-top: 8px;
+    }
+   .social {
+       position: absolute;
+       bottom: 2px;
+       left: 20px;
+   }
+   .social h2 {
+    font-size: 24px;
+    color: #fff;
+    
+    }
+    .menu li {
+        font-size: 20px;
+        list-style: none;
+        padding: 11px 0px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .menu .fa-bars {
+        color: #434367;
+        font-size: 27px;
+        margin-left: 7px;
+    }
+    .box .img:hover .btn {
+        display: none;
+    }
+    .Portfolio ul li {
+        display: inline-block;
+        margin-top: 25px;
+        padding: 6px;
+        margin-left: 3px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #404040;
+        position: relative;
+        transition: 1s;
+    }
+    .Portfolio .controls {
+        display: inline-block;
+        margin-top: 25px;
+        margin-left: 40px;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #404040;
+        position: relative;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    .Portfolio label {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 400;
+    }
+    .box .img {
+        margin-left: 3px;
+        height: 150px;
+        display: inline-block;
+        left: 0;
+        top: 45px;
+    }
+    .box .img img {
+        width: 100%;
+        height: 100%;
+    }
+    .box .about {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .box .about h2 {
+        color: #333;
+        font-size: 15px;
+        margin-top: 54px;
+        font-weight: 600;
+        text-align: left;
+    }
+    .box .about .lead {
+        font-size: 14px;
+        text-align: left;
+        min-height: 25px;
+        margin-left: 3px;
+        height: 45px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .box .add-cart {
+        display: block;
+        background-color: #434367;
+        width: 99%;
+        margin-left: 15px;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        margin-top: 8px;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    .menu .btn-default {
+        color: #333;
+        background-color: #fff;
+        border-color: #ccc;
+        border: none;
+        margin-top: -2px;
+        margin-left: -12px;
+        border-radius: 5px;
+    }
+    .quick-shop {
+        width: 770px;
+        position: fixed;
+        top: 80px;
+        left: 12%;
+        z-index: 9999;
+        display: none;
+    }
+    .Portfolio .btn {
+        background-color: #fff;
+        color: #434367;
+        margin-top: 17px;
+        width: 160px;
+        height: 40px;
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 13px;
+        border-radius: 4px;
+        border: 1px solid #434367;
+    }
+    .Portfolio .btn a {
+        text-decoration: none;
+        color: #434367; 
+    }
+    .wear .more {
+        margin-top: 30px;
+        width: 100%;
+        margin: 40px auto;
+        color: aliceblue;
+        background-color: #434367;
+        font-size: 20px;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+   
+}

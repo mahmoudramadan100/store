@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* nav */
+
+.menu .fa-bars {
+    color: #434367;
+    font-size: 29px;
+    margin-top: 8px !important;
+}
+.navbar-form {
+    margin: 7px 250px;
+}
+.navbar-brand{
+   margin-top: -20px;
+    /* width: 100px; */
+}
+.carousel-control {
+  display: none
+}
+
+/* logo */
+.navbar-brand>img {
+    display: block;
+    width: 100px;
+    overflow: hidden;
+    padding: 16px;
+    margin-top: -12px;
+    height: 90px;
+}
+/* header */
+.mycarsoul {
+    width: 100%;
+    margin-top: -20px;
+    margin-left: auto;
+    padding-left: 0px;
+}
+/* men's wear */
+.wear {
+    padding-top: 40px;
+}
+.product {
+    padding-top: 20px;
+}
+.wear h2 {
+    font-size: 20px;
+    line-height: 2
+}
+.wear img {
+    width: 280px;
+}
+.wear span {
+    display: inherit;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.wear .btn:hover{
+    background-color: #fff;
+    outline: none;
+    color: #434367;
+    border:1px solid #434367;
+    border-bottom:2px solid #434367
+}
+.wear .add-cart  {
+    text-transform: capitalize;
+}
+.wear .more {
+    margin-top: 190px;
+    width: 201px;
+    margin-left: 40px;
+    color: aliceblue;
+    border-bottom:2px solid transparent;
+    background-color: #434367;
+    font-size: 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.wear .more a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.wear .more:hover a {
+    color: #434367;
+}
+
+/* footer */
+.footer {
+    padding-top: 40px;
+    background-color: #434367;
+    color: aliceblue;
+    font-size: 17px;
+    margin-top: 100px;
+    line-height: 44px;
+    /* padding-bottom: 30px; */
+}
+.footer ul {
+    list-style: none;
+}
+.footer li a {
+    text-decoration: none;
+    color: aliceblue
+}
+.copyright {
+    background-color: black;
+}
+.copyright .lead {
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+    padding: 9px 0;
+}
+/* bar */
+.menu {
+    position: relative;
+    margin-top: 11px;
+    margin-bottom: -33px;
+    width: 140px;
+}
+@media screen and (min-width: 768px) {
+.carousel-indicators {
+    bottom: -7px;
+    color: #ca1919;
+}
+}
